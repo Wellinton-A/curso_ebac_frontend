@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rule {
+    padding: 8px;
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+form {
+    margin-top: 40px;
+}
+
+input,
+button,
+h1 {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: dodgerblue;
+    color: #fff;
+}
+
+.messageSuccess {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 8px;
+    display: none;
+}
+
+.messageError {
+    background-color: red;
+    color: #fff;
+    padding: 8px;
+    margin-bottom: 8px;
+    display: none;
+}
+
+input.error {
+    color: red;
+    border-color: red;
+    outline-color: red;
+}
