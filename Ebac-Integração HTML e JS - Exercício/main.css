@@ -53,3 +53,7 @@ input.error {
     border-color: red;
     outline-color: red;
 }
+
+button:hover {
+    background-color: rgb(66, 94, 130);
+}
