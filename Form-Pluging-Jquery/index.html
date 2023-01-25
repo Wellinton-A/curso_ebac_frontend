@@ -13,7 +13,8 @@
     <title>Formulário</title>
 </head>
 <body>
-    <header>
+    <div class="container">
+        <header>
         <h1>Contato</h1>
     </header>
     <form>
@@ -43,5 +44,35 @@
         </div>
         <button type="submit">Enviar</button>
     </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script>
+        $('#cpf').mask("000.000.000-00")
+        $('#cep').mask("00000-000")
+
+        $('form').validate({
+            rules:{
+                nome: {
+                    required: true
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                telefone: {
+                    required: true
+                },
+                cpf: {
+                    required: true
+                },
+                cep: {
+                    required: true
+                }
+            }
+        })
+    </script>
 </body>
 </html>

@@ -5,13 +5,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
+.container form,
+.container header h1{
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
 }
 
 header {
+    
     padding: 16px 8px;
     background-color: #000;
     color: #fff;
