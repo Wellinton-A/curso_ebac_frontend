@@ -1,0 +1,14 @@
+@use "../config/variables";
+
+@media screen and (max-width: variables.$mobile) {
+
+    .container {
+        .products {
+            display: block;
+        }
+    }
+
+    .product-item  {
+        margin-bottom: 32px;
+    }
+}
