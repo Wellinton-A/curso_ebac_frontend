@@ -1,0 +1,21 @@
+@use 'variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: variables.$bodyColor;
+}
+
+h1 {
+    text-align: center;
+    cursor: pointer;
+}
+
+.newH1 {
+    color: #558796
+}
