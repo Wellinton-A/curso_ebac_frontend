@@ -17,6 +17,5 @@ document.addEventListener('DOMContentLoaded', function () {
             document.getElementsByClassName('numbers-item')[1].childNodes[2].nodeValue = followers;
             document.getElementsByClassName('numbers-item')[2].childNodes[2].nodeValue = following;
             document.getElementsByClassName('profile-link')[0].href = url;
-            console.log(url)
         });
 });
